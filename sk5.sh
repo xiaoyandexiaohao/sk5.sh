@@ -96,6 +96,7 @@ EOF
     echo -e "${BLUE}端口: ${PORT}${NC}"
     echo -e "${BLUE}用户名: ${USER}${NC}"
     echo -e "${BLUE}密码: ${PASSWD}${NC}"
+    echo -e "${BLUE}链接：socks5://${USER}:${PASSWD}@${PUBLIC_IP}:${PORT}${NC}"
 }
 
 function quick_socks5() {
