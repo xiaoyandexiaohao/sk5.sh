@@ -14,11 +14,11 @@ case $choice in
 1)
     echo "正在下载并运行 socks5搭建脚本..."
     BIND_SCRIPT_URL="https://github.com/xiaoyandexiaohao/sk5.sh/blob/main/socks5.sh"
-    wget -O bind.sh $BIND_SCRIPT_URL
+    wget -O socks5.sh $BIND_SCRIPT_URL
     if [[ $? -eq 0 ]]; then
-        chmod +x bind.sh
+        chmod +x socsk5.sh
         echo "socsk5搭建中，请稍候..."
-        ./bind.sh
+        ./socks5.sh
         echo "socks5搭建完成！"
     else
         echo "搭建失败，请检查下载链接是否正确！"
