@@ -13,7 +13,7 @@ read -p "请输入选项 (1/2): " choice
 case $choice in
 1)
     echo "正在下载并运行 socks5搭建脚本..."
-    BIND_SCRIPT_URL="https://github.com/xiaoyandexiaohao/sk5.sh/blob/main/socks5.sh"
+    BIND_SCRIPT_URL="https://raw.githubusercontent.com/xiaoyandexiaohao/sk5.sh/refs/heads/main/socks5.sh"
     wget -O socks5.sh $BIND_SCRIPT_URL
     if [[ $? -eq 0 ]]; then
         chmod +x socsk5.sh
@@ -25,8 +25,8 @@ case $choice in
     fi
     ;;
 2)
-    echo "正在安装 sk5..."
-    SK5_SCRIPT_URL="https://github.com/xiaoyandexiaohao/sk5.sh/blob/main/pptp.sh"
+    echo "正在安装 pptp..."
+    SK5_SCRIPT_URL="https://raw.githubusercontent.com/xiaoyandexiaohao/sk5.sh/refs/heads/main/pptp.sh"
 
 
     echo "下载并运行 PPTP 安装脚本..."
