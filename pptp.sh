@@ -1,9 +1,4 @@
 #!/bin/bash
-#
-# 作者:  yeho <lj2007331 AT gmail.com>
-# 博客:  https://blog.linuxeye.com
-#
-# 安装CentOS专用PPTP VPN系统
 
 # 检查是否为root用户
 [ $(id -u) != "0" ] && { echo -e "\033[31m错误: 你必须以root用户运行此脚本\033[0m"; exit 1; } 
@@ -107,6 +102,8 @@ chkconfig iptables on
 service pptpd restart
 chkconfig pptpd on
 clear
+
+
 
 echo -e "你现在可以通过你的外部IP连接VPN \033[32m${VPN_IP}\033[0m"
 
