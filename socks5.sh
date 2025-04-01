@@ -92,6 +92,7 @@ EOF
     # 仅显示公网IP, 端口, 用户名, 密码
     clear  # 清空当前页面
     echo -e "${GREEN}代理服务器搭建完成！${NC}"
+    echo -e "${GREEN}交流群请联系：17784902889！${NC}"
     echo -e "${BLUE}公网IP: ${PUBLIC_IP}${NC}"
     echo -e "${BLUE}端口: ${PORT}${NC}"
     echo -e "${BLUE}用户名: ${USER}${NC}"
