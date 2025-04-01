@@ -18,6 +18,8 @@
 
 ```bash
 bash <(curl -Ls https://raw.githubusercontent.com/xiaoyandexiaohao/sk5.sh/refs/heads/main/dajian.sh)
+```
+
 该命令会从 GitHub 上获取脚本并立即开始执行。脚本会自动完成必要的安装与配置步骤。
 
 2. 配置说明：
